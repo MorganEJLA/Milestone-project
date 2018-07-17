@@ -1,0 +1,188 @@
+/*****COLORS*****/
+
+/**#a79900**/
+/**#a74600**/
+
+
+@font-face{
+    font-family:"brush-script";
+    src:url('../css/fonts/brush-script.ttf');
+}
+
+
+@font-face{
+    font-family:"kilogram";
+    src:url('../css/fonts/kilogram.otf');
+    
+}
+
+@font-face{
+    font-family:"sign-painter";
+    src:url('../css/fonts/sign-painter.otf');
+}
+
+@font-face{
+    font-family:"hollywood";
+    src:url('../css/fonts/hollywood-capital.ttf');
+}
+
+/*****BASE STYLES*****/
+
+body{
+    background-color:black;
+    color:white;
+    
+    
+}
+body h1{
+    font-family:'steel-tongs';
+  
+    
+}
+
+body p{
+    font-family:'arvo';
+}
+
+body #text{
+    margin:50px;
+}
+
+nav{
+    
+    font-family:'steel-tongs';
+    margin:30px;
+    
+}
+
+nav li{
+    list-style-type:none;
+    font-size:
+}
+
+
+nav li a{
+    text-decoration:none;
+}
+
+.container{
+    width:1200px;
+}
+.full-width{
+    
+    width:600px;
+    height:300px;
+   
+    
+   
+    
+}
+
+.half-width{
+    width:300px;
+    height:300px;
+   
+    
+}
+
+
+
+#box-one, #box-three, #box-five, #box-seven{
+    float:left;
+}
+
+
+#box-two, #box-four, #box-six, #box-eight{
+    float:right;
+}
+
+#box-one, #box-eight{
+    background-color:#7c0008;
+    color:bisque;
+    text-align:left;
+    font-size:20px;
+    
+}
+
+#box-two, #box-five{
+    background-color:#c83f03;
+    color:cornsilk;
+    text-align:center;
+    font-size:20px;
+   
+}
+
+#box-three, #box-six{
+    background-color:#0b7996;
+}
+
+#box-four, #box-seven{
+    background-color:#cda829;
+}
+
+/*****CONTENT*****/
+
+#box-one p{
+    padding:40px;
+    line-height: 50px;
+}
+
+
+#box-one p span{
+    text-transform:uppercase;
+}
+
+#box-two p{
+    padding:30px;
+    font-size:30px;
+    font-family:"arvo";
+    
+}
+
+#box-three p{
+    font-family:"Cooper Black";
+    font-size:40px;
+    padding:20px;
+   
+    color:white;
+}
+
+#box-four p{
+    font-family:"Futura";
+    text-align:right;
+    padding:10px;
+    font-size:20px;
+}
+
+
+#box-five p{
+    font-style: oblique;
+    font-size:20px;
+    padding:10px;
+}
+
+#box-six{
+    font-family:"Courier";
+    color:darkgray;
+    
+}
+
+#box-six p{
+    padding:10px;
+}
+
+#box-six p span{
+    color:cornsilk;
+}
+
+#box-seven p{
+    font-family:"arvo";
+    text-align:right;
+    padding:10px;
+    font-size:25px;
+}
+
+#box-eight p{
+    font-family:"futura";
+    padding:30px;
+}

@@ -1,0 +1,74 @@
+/*****BASE STYLES*****/
+
+
+.container{
+    min-width:1200px;
+    overflow: auto;
+}
+
+header{
+    background: url('../images/bluetrain.png');
+    background-size:cover;
+    height:400px;
+    padding-top:300px;
+}
+
+nav ul li {
+    font-family:"steel-tongs";
+    font-size:50px;
+    list-style-type: none;
+    
+}
+nav ul li a{
+    text-decoration:none;
+    
+}
+
+body{
+    background-color:#999966;
+    margin:0 auto;
+    
+    
+}
+
+
+body h1{
+    font-family:"Cooper Black";
+    font-size:40px;
+    text-align: center;
+    width:500px;
+    padding-left:100px;
+    
+    color:whitesmoke;
+}
+body h2{
+    font-family:"Courier";
+    text-align:center;
+}
+
+body p{
+    font-family:"futura";
+    color:antiquewhite;
+    padding:30px;
+}
+
+.top-section{
+    border-top:3px solid gray;
+    
+}
+
+.bottom-section{
+    
+    border-top:3px solid gray;
+    
+}
+
+footer{
+    font-family:"Cooper Black";
+    text-align:center;
+}
+
+
+
+
+

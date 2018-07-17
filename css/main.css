@@ -1,0 +1,255 @@
+/*****BASE STYLES*****/
+
+
+@font-face{
+    font-family:"bebas-neue";
+    src:url('../fonts/bebas-neue.otf');
+    
+}
+
+
+@font-face{
+    font-family:"steel-tongs";
+    src:url('../fonts/steel-tongs.ttf');
+}
+
+header, section{
+    overflow:hidden;
+}
+
+header{
+    background:url('../images-icons/webpage-bg.png');
+    background-size:cover;
+    height:800px;
+    
+}
+
+header nav{
+    list-style:none;
+    margin:0;
+    font-family:"steel-tongs";
+    font-size:40px;
+    float:right;
+   
+}
+
+header nav li{
+    display:inline-block;
+    margin-right:10px;
+    float:left;
+    padding-left:10px;
+    
+  
+   
+}
+
+
+header nav li a{
+    text-decoration:none;
+    color:antiquewhite;
+}
+
+header #name{
+    font-family:"bebas-neue";
+    font-size:100px;
+    padding-left:75px;
+    line-height:90px;
+    margin-top:100px;
+
+}
+
+header span{
+    color:antiquewhite;
+    font-size:100px;
+    padding-left:75px;
+   
+}
+
+
+body{
+    
+    margin:0 auto;
+}
+
+body h2, h3, p{
+    color:white;
+  
+}
+
+body h2{
+    font-family:'steel-tongs';
+    font-size:70px;
+}
+
+
+
+body p{
+    font-family:'arvo';
+}
+
+body h2, h4{
+    text-align:center;
+}
+
+.full-width{
+    min-width:1400px;
+    margin:0 auto;
+    float:right;
+    padding-top:75px;
+    overflow:auto;
+}
+
+.half-width{
+    width:599px;
+    float:left;
+    padding-right:100px;
+    
+    
+    
+    
+    
+}
+
+.third-width{
+    width:399px;
+    
+}
+
+
+
+#portfolio{
+    height:1550px;
+    background-color:black;
+}
+
+
+#about{
+    background-color:#aa7500;
+    height:700px;
+}
+
+
+#contact{
+    background-color:black;
+    height:550px;
+}
+
+/*****PORTFOLIO*****/
+
+#portfolio #first-img, #second-img{
+   
+}
+
+#portfolio h2{
+    padding-bottom:50px;
+}
+
+#portfolio h3{
+    font-family:'arvo';
+    font-size:25px;
+}
+
+#portfolio #first-img{
+    float:left;
+}
+
+
+#portfolio #second-img{
+    float:left;
+    clear:both;
+}
+
+
+#portfolio #first-img, #second-img, #third-img{
+    margin-left:30px;
+    
+    
+}
+
+
+    
+
+
+
+
+
+#portfolio #third-img{
+    float:left;
+    clear:both;
+}
+
+/*****ABOUT*****/
+
+#about #contact-img{
+    
+    float:left;
+    margin-bottom:150px;
+    margin-left:250px;
+
+   
+}
+
+
+#about #bio{
+    float:right;
+    padding-left:30px;
+    margin-right:30px;
+    
+    
+    
+    
+    
+    
+}
+
+
+#about h3{
+    font-family:'arvo';
+    font-size:30px;
+   
+}
+
+#about h2{
+    color:antiquewhite;
+ 
+    
+}
+/*****CONTACT*****/
+
+
+#contact .third-width{
+    padding-right:40px;
+}
+
+#contact #hire, #social-media, #location{
+    float:left;
+    padding-right:150px;
+    text-align:center;
+    padding-bottom:20px;
+}
+
+#contact #social-media ul li{
+    display:inline-block;
+    margin-right:50px;
+}
+
+#contact #social-media{
+    margin-right:80px;
+}
+
+#contact {
+    font-family:"arvo"
+}
+#contact h2{
+    
+    
+    padding-top:15px;
+}
+
+#copyright h4{
+    color:white;
+    clear:both;
+    text-align:center;
+    padding-top:30px;
+    
+}
